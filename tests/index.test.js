@@ -1,6 +1,16 @@
-// tests/index.test.js
-const soma = require('../src/index');
+const { addPoints, scores } = require('../src/index.js');
 
-test('soma 1 + 2 para igualar 3', () => {
-  expect(soma(1, 2)).toBe(3);
+// Mock do document.getElementById para não dar erro no Node
+global.document = {
+  getElementById: () => ({ textContent: '' })
+};
+
+beforeEach(() => {
+  scores.team1 = 0;
+  scores.team2 = 0;
+});
+
+test('adicionar +1 ponto para team1', () => {
+  addPoints('team1', 1);
+  expect(scores.team1).toBe(1);
 });

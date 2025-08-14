@@ -1,5 +1,13 @@
-// funcao teste que soma dois numeros
-function soma(a, b) {
-    return a + b;
+let scores = {
+    team1: 0,
+    team2: 0
+  };
+  
+  function addPoints(team, points) {
+    scores[team] += points;
+    document.getElementById(`${team}-score`).textContent = scores[team];
   }
-  module.exports = soma;
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { addPoints, scores };
+  }
+

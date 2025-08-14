@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>Pipeline CI CD</title>
-    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/171362135?v=4">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Basquete</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emojione_1F3C0.svg/40px-Emojione_1F3C0.svg.png" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Teste de Pipeline CI/CD</h1>
-    <p>by Miguel Morandini</p>
+    <div class="container">
+        <h1>Contador de Basquete</h1>
+
+        <div class="team">
+            <input type="text" id="team1-name" placeholder="Time A">
+            <div class="score" id="team1-score">0</div>
+            <button onclick="addPoints('team1', 1)">+1 ponto</button>
+            <button onclick="addPoints('team1', 3)">+3 pontos</button>
+        </div>
+
+        <div class="team">
+            <input type="text" id="team2-name" placeholder="Time B">
+            <div class="score" id="team2-score">0</div>
+            <button onclick="addPoints('team2', 1)">+1 ponto</button>
+            <button onclick="addPoints('team2', 3)">+3 pontos</button>
+        </div>
+    </div>
+
+    <script src="src/index.js"></script>
 </body>
 
 </html>
