@@ -21,6 +21,6 @@
   "homepage": "https://github.com/miguelmorandini/pipeline-ci-cd#readme",
   "description": "",
   "devDependencies": {
-    "jest": "^30.0.5"
+    "jest": "^29.7.0"
   }
 }
