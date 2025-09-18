@@ -11,3 +11,4 @@ let scores = {
     module.exports = { addPoints, scores };
   }
 
+/*teste de comentario*/
