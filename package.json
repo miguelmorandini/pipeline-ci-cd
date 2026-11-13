@@ -12,14 +12,22 @@
     "type": "git",
     "url": "git+https://github.com/miguelmorandini/pipeline-ci-cd.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "jest",
+    "javascript",
+    "html",
+    "css",
+    "github-pages"
+  ],
+  "author": "miguelmorandini <miguel_mmorandini@outlook.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miguelmorandini/pipeline-ci-cd/issues"
   },
-  "homepage": "https://github.com/miguelmorandini/pipeline-ci-cd#readme",
-  "description": "",
+  "homepage": "https://miguelmorandini.github.io/pipeline-ci-cd/",
+  "description": "Aplicação web de Contador de Basquete com testes automatizados (Jest) e pipeline de CI/CD via GitHub Actions e GitHub Pages.",
   "devDependencies": {
     "jest": "^29.7.0"
   }
