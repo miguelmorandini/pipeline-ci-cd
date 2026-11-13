@@ -6,7 +6,9 @@
 
 Aplicação web simples e responsiva de **Contador de Basquete** desenvolvida com HTML, CSS e JavaScript puro, estruturada para demonstrar um fluxo completo de **Integração Contínua (CI)** e **Entrega Contínua (CD)** utilizando **GitHub Actions**, **Jest** e **GitHub Pages**.
 
-🔗 **Demo ao vivo:** [miguelmorandini.github.io/pipeline-ci-cd](https://miguelmorandini.github.io/pipeline-ci-cd/)
+🔗 **Demo ao vivo:**
+- **GitHub Pages (público):** [miguelmorandini.github.io/pipeline-ci-cd](https://miguelmorandini.github.io/pipeline-ci-cd/)
+- **Vercel:** [pipeline-ci-cd-miguel-morandinis-projects.vercel.app](https://pipeline-ci-cd-miguel-morandinis-projects.vercel.app/)
 
 ---
 
